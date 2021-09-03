@@ -7,12 +7,11 @@
 */
 
 /* Import */
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/TATOCB_Core.css);
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css);
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/SFOMIR_Core.css);
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css');
-@import url('https://corellanstoma.github.io/Menu-Icons/index.css');
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/TATOCB_Core.css); /* Typing at top of chat box */
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css); /* Remove Nitro Tab */
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/SFOMIR_Core.css); /* Show Full Original Message In Replies */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
+@import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css'); /* Compact User Area */
 @import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /* old user popouts */
 @import url("https://pixelmelt.github.io/Spectra/src/cosmetics.css"); /* user cosmetics */
 @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored discord SVGs */
