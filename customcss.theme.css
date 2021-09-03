@@ -26,6 +26,10 @@
 	filter:none;
 }
 
+:root {
+    --version001_tatocb: none;
+}
+
 /* Radial Status */
 :root {
   --rs-small-spacing: 1px; /* Gap between avatar and status for members list/dms | MUST end in px */
