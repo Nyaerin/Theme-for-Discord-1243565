@@ -1,0 +1,77 @@
+/**
+ * @name CustomCSS
+ * @author Naerin ( [X] to doubt )
+ * @version 1
+ * @description A custom CSS
+*/
+
+/* Import */
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/TATOCB_Core.css);
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css);
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/SFOMIR_Core.css);
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css');
+@import url('https://corellanstoma.github.io/Menu-Icons/index.css');
+@import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /* old user popouts */
+@import url("https://pixelmelt.github.io/Spectra/src/cosmetics.css"); /* user cosmetics */
+@import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored discord SVGs */
+@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/base.css'); /* Speaking rings base*/
+@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/voiceconnectedpanel.css'); /* Speaking rings voice connected panel */
+@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/bigusers.css'); /* Speaking rings fullscreen user panels */
+
+
+/* -- */
+.emojiItemDisabled-1FvFuF, .stickerUnsendable-2q_h2B {
+	-webkit-filter: none;
+	filter:none;
+}
+
+/* Legacy Settings Icons */
+:root {
+    /* Icon Fill Color (Default: white) */
+    --settings-icon-color: lightblue;
+
+    /* Nitro/Subscriptions Icon Fill (Default: #7289da) */
+    --settings-subscriptions: #7289da;
+    /* Hypesquad Icon Fill (Default: #fbb848) */
+    --settings-hypesquad: #fbb848;
+    /* Logout Icon Fill (Default: #f04747) */
+    --settings-logout: #f04747;
+	/* Version for Typing mini-theme */
+	--version001_tatocb: none;
+
+}
+
+/* Radial Status */
+:root {
+  --rs-small-spacing: 1px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 2px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 3px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
+
+/* Compact User Area */
+:root {
+    --container-color: var(--background-floating);
+}
+
+/* Hide Disccord notices */
+*[class^='notice-'] { display: none !important; }
+
+/* Main theme */
+ 
