@@ -3,7 +3,6 @@
  * @author Naerin ( [X] to doubt )
  * @version 1
  * @description A custom CSS
- * @updateUrl https://raw.githubusercontent.com/Nyaerin/Theme-for-Discord-1243565/master/customcss.theme.css
 */
 
 /* Import */
@@ -15,10 +14,7 @@
 @import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /* old user popouts */
 @import url("https://pixelmelt.github.io/Spectra/src/cosmetics.css"); /* user cosmetics */
 @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored discord SVGs */
-@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/base.css'); /* Speaking rings base*/
-@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/voiceconnectedpanel.css'); /* Speaking rings voice connected panel */
-@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/bigusers.css'); /* Speaking rings fullscreen user panels */
-
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css"); /* Old New Title Bar */
 
 /* -- */
 .emojiItemDisabled-1FvFuF, .stickerUnsendable-2q_h2B {
@@ -61,5 +57,6 @@
 /* Hide Disccord notices */
 *[class^='notice-'] { display: none !important; }
 
-/* Main theme */
- 
+/* Fixes */
+.platform-win .container-3baos1 {
+	top: 9px!important
