@@ -29,14 +29,14 @@
 /* Radial Status */
 :root {
   --rs-small-spacing: 1px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 2px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 3px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-medium-spacing: 1px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 2px; /* Gap between avatar and status for User profiles | MUST end in px */
 
   --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
   --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
   --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
 
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  --rs-avatar-shape: 5%; /* 50% for round - 0% for square */
 
   --rs-online-color: #43b581; /* Colour for online status */
   --rs-idle-color: #faa61a; /* Colour for idle status */
@@ -59,4 +59,47 @@
 
 /* Fixes */
 .platform-win .container-3baos1 {
-	top: 9px!important
+	top: 9px!important;
+}
+
+/* Remove Nitro shit, fuck discord */
+div[id="guild-header-popout-premium-subscribe"], .separator-2I32lJ, .wrapper-3nSjSv, .heading-3VWlBM, div[class="colorStandard-2KCXvj size16-1P40sf"], div[aria-label="Discord Nitro"], div[class="upsellWrapper-1utsSD"]{
+	visibility:hidden;
+	display:none;
+}
+
+/* Main */
+.searchBar-6Kv8R2, div[aria-label="Aide"], div[aria-label="Help"] {
+	visibility:hidden;
+	display:none;
+}
+
+.content-3YMskv {
+	bottom: 2px
+}
+	
+.jumpToPresentBar-G1R9s6 {
+	background: transparent!important;
+	position:fixed;
+	bottom:55px;
+	left:55%
+}
+
+.barButtonMain-3K-jeJ, .span-1mKrMp {
+	visibility:hidden;
+	display:none;
+}
+
+.badgeList-1R1WgZ {
+	position:relative;
+	right: 28.5%;
+	top: 38px;
+}
+
+.avatar-1BDn8e.clickable-1bVtEA {
+	border-radius: 5px;
+}
+
+.expandedFolderBackground-1cujaW {
+	background: transparent;
+}
