@@ -62,7 +62,8 @@
 
 /* Remove Nitro shit, fuck discord */
 div[id="guild-header-popout-premium-subscribe"], .separator-2I32lJ, .wrapper-3nSjSv, .heading-3VWlBM, div[class="colorStandard-2KCXvj size16-1P40sf"], div[aria-label="Discord Nitro"], div[class="upsellWrapper-1utsSD"], a[href="/store"], 
-div[aria-controls="billing-tab"], div[aria-controls="nitro-server-boost-tab"], p[class="emptyStateSubtext-2hdA9c"], .defaultColor-1_ajX0, .divider-1Jfi9s, .emptyStateHeader-248f_b, div[aria-controls="library-inventory-tab"], .header-2RyJ0Y, .separator-gCa7yv{
+div[aria-controls="billing-tab"], div[aria-controls="nitro-server-boost-tab"], p[class="emptyStateSubtext-2hdA9c"], .defaultColor-1_ajX0, .divider-1Jfi9s, .emptyStateHeader-248f_b, div[aria-controls="library-inventory-tab"], .header-2RyJ0Y, .separator-gCa7yv,
+.shinyButton-3uFlM-, .h5-18_1nd, .sectionDescription-3KkObU{
 	visibility:hidden;
 	display:none;
 }
@@ -157,3 +158,13 @@ div[class="bd-changelog-button"], div[class="socialLinks-3jqNFy"], .formNotice-2
 	width: 50px;
 	height: 50px;
 	left:225px
+}
+
+.textArea-1Lj-Ns, .inputDefault-_djjkz {
+	resize: vertical;
+}
+
+.date-YN6TCS {
+	position: relative;
+	left:20px
+}
