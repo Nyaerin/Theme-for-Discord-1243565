@@ -61,7 +61,8 @@
 }
 
 /* Remove Nitro shit, fuck discord */
-div[id="guild-header-popout-premium-subscribe"], .separator-2I32lJ, .wrapper-3nSjSv, .heading-3VWlBM, div[class="colorStandard-2KCXvj size16-1P40sf"], div[aria-label="Discord Nitro"], div[class="upsellWrapper-1utsSD"], a[href="/store"], div[aria-controls="billing-tab"], div[aria-controls="nitro-server-boost-tab"], p[class="emptyStateSubtext-2hdA9c"], .defaultColor-1_ajX0, .divider-1Jfi9s, .emptyStateHeader-248f_b{
+div[id="guild-header-popout-premium-subscribe"], .separator-2I32lJ, .wrapper-3nSjSv, .heading-3VWlBM, div[class="colorStandard-2KCXvj size16-1P40sf"], div[aria-label="Discord Nitro"], div[class="upsellWrapper-1utsSD"], a[href="/store"], 
+div[aria-controls="billing-tab"], div[aria-controls="nitro-server-boost-tab"], p[class="emptyStateSubtext-2hdA9c"], .defaultColor-1_ajX0, .divider-1Jfi9s, .emptyStateHeader-248f_b, div[aria-controls="library-inventory-tab"], .header-2RyJ0Y, .separator-gCa7yv{
 	visibility:hidden;
 	display:none;
 }
@@ -109,3 +110,50 @@ a[href="/discovery"], div[aria-label="Explore Public Servers"], div[aria-label="
 div[class="bd-changelog-button"], div[class="socialLinks-3jqNFy"], .formNotice-2_hHWR {
 	display:none;
 }
+
+.sidebar-CFHs9e {
+	position:relative;
+	width:500px;
+	padding: 20px
+}
+
+.contentColumnDefault-1VQkGM {
+	position:relative;
+	padding: 20px 10px;
+}
+
+.avatarUploaderInner-Oiob_P {
+	position:relative;
+	width: 60px;
+	height: 60px;
+	right:15px;
+	top:45px;
+	border-radius: 5px
+}
+
+.headerTagNoNickname-3qrd77 {
+	position:relative;
+	right: 10px
+}
+
+.headerText-1vVs-U {
+	position:relative;
+	top:8px;
+}
+
+.avatarUploaderIndicator-2G-aIZ, .keybind-KpFkfr {
+	display:none;
+}
+
+.popoutInfo-pKbpvG {
+	position: relative;
+	padding: 7px 10px 10px;
+	top: 5px;
+}
+
+.closeButton-1tv5uR {
+	border-radius: 2px;
+	position:relative;
+	width: 50px;
+	height: 50px;
+	left:225px
