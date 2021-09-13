@@ -7,12 +7,10 @@
 
 /* Import */
 @import url(https://tomrdh.github.io/discord-addons/xcores/themes/TATOCB_Core.css); /* Typing at top of chat box */
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css); /* Remove Nitro Tab */
 @import url(https://tomrdh.github.io/discord-addons/xcores/themes/SFOMIR_Core.css); /* Show Full Original Message In Replies */
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
 @import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css'); /* Compact User Area */
 @import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /* old user popouts */
-@import url("https://pixelmelt.github.io/Spectra/src/cosmetics.css"); /* user cosmetics */
 @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored discord SVGs */
 @import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css"); /* Old New Title Bar */
 
@@ -63,13 +61,13 @@
 }
 
 /* Remove Nitro shit, fuck discord */
-div[id="guild-header-popout-premium-subscribe"], .separator-2I32lJ, .wrapper-3nSjSv, .heading-3VWlBM, div[class="colorStandard-2KCXvj size16-1P40sf"], div[aria-label="Discord Nitro"], div[class="upsellWrapper-1utsSD"]{
+div[id="guild-header-popout-premium-subscribe"], .separator-2I32lJ, .wrapper-3nSjSv, .heading-3VWlBM, div[class="colorStandard-2KCXvj size16-1P40sf"], div[aria-label="Discord Nitro"], div[class="upsellWrapper-1utsSD"], a[href="/store"], div[aria-controls="billing-tab"], div[aria-controls="nitro-server-boost-tab"], p[class="emptyStateSubtext-2hdA9c"], .defaultColor-1_ajX0, .divider-1Jfi9s, .emptyStateHeader-248f_b{
 	visibility:hidden;
 	display:none;
 }
 
 /* Main */
-.searchBar-6Kv8R2, div[aria-label="Aide"], div[aria-label="Help"] {
+.searchBar-6Kv8R2, div[aria-label="Aide"], div[aria-label="Help"], div[id="message-apps"], .customItem-a8hq58, .wrapper-3_530D {
 	visibility:hidden;
 	display:none;
 }
@@ -102,4 +100,12 @@ div[id="guild-header-popout-premium-subscribe"], .separator-2I32lJ, .wrapper-3nS
 
 .expandedFolderBackground-1cujaW {
 	background: transparent;
+}
+
+a[href="/discovery"], div[aria-label="Explore Public Servers"], div[aria-label="Explore les serveurs publics"]{
+	display:none;
+}
+
+div[class="bd-changelog-button"], div[class="socialLinks-3jqNFy"], .formNotice-2_hHWR {
+	display:none;
 }
