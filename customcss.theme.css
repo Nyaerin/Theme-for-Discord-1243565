@@ -8,7 +8,7 @@
 */
 
 /* Import */
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/TATOCB_Core.css); /* Typing at top of chat box */
+/* @import url(https://tomrdh.github.io/discord-addons/xcores/themes/TATOCB_Core.css); /* Typing at top of chat box */
 /* @import url(https://tomrdh.github.io/discord-addons/xcores/themes/SFOMIR_Core.css); /* Show Full Original Message In Replies */
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
 @import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css'); /* Compact User Area */
@@ -176,12 +176,12 @@ div[class="bd-changelog-button"], div[class="socialLinks-3jqNFy"], .formNotice-2
 /* Chat */
 
 .container-3FojY8 {
-    padding: 2px 15px 2px 160px;
+    padding: 2px 15px 2px 100px;
     overflow: visible;
 }
 
 .avatar-1BDn8e {
-    margin:0px 0px 0px -50px!important;
+    margin: -1px 0px 0px -50px!important;
     width: 65px !important;
     height: 65px !important;
     border: 3px solid lightgray;
@@ -199,7 +199,12 @@ div[class="bd-changelog-button"], div[class="socialLinks-3jqNFy"], .formNotice-2
 }
 
 .cozy-3raOZG .messageContent-2qWWxC, .username-1A8OIy {
-	left: 10px;
+	left: 6px;
+	bottom: 3px;
+}
+
+div[class="repliedMessage-VokQwo"] {
+	right: 20px;
 }
 
 span[class="timestamp-3ZCmNB timestampInline-yHQ6fX"] {
@@ -227,3 +232,35 @@ span[class="timestamp-3ZCmNB timestampInline-yHQ6fX"] {
 .chat-3bRxxu ::-webkit-scrollbar-track-piece, 
 .chat-3bRxxu ::-webkit-scrollbar-track { visibility:hidden;}
 .chat-3bRxxu ::-webkit-scrollbar-thumb{ visibility:hidden; }
+
+div[class="placeholder-37qJjk fontSize16Padding-3Wk7zP"] {
+	visibility:hidden;
+}
+
+.repliedTextPreview-2NBljf, .threadMessageAccessoryPreview-1uSsue {
+	padding-right: 10px;
+}
+
+
+.divider-3_HH5L {
+	top: 53px!important;
+}
+
+.barButtonBase-2uLO1z {
+	left: 840px;
+	top: 10px;
+	border: 2px solid var(--brand-experiment);;
+	border-radius: 6px;
+	background-color: var(--brand-experiment);
+	box-shadow: var(--elevation-low);
+}
+
+.barBase-1c2Rfb {
+	background: transparent;
+	box-shadow: none;
+}
+
+svg[name="Open Logs"] {  /* Message Logger Icons */
+	display:none;
+}
+
