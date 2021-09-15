@@ -3,8 +3,8 @@
  * @author Naerin ( [X] to doubt )
  * @version 1
  * @description A custom CSS
- * @updateUrl https://raw.githubusercontent.com/Nyaerin/Theme-for-Discord-1243565/master/customcss.theme.css
- * @downloadUrl https://raw.githubusercontent.com/Nyaerin/Theme-for-Discord-1243565/master/customcss.theme.css
+ * @updateUrl https://raw.githack.com/Nyaerin/Theme-for-Discord-1243565/master/customcss.theme.css
+ * @downloadUrl https://raw.githack.com/Nyaerin/Theme-for-Discord-1243565/master/customcss.theme.css
 */
 
 /* Import */
@@ -242,9 +242,34 @@ div[class="placeholder-37qJjk fontSize16Padding-3Wk7zP"] {
 }
 
 
-.divider-3_HH5L {
-	top: 53px!important;
+/* Chat Date Dividers - This one is stolen too */
+.divider-3_HH5L /* Line */ {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), red 10%, red 90%, rgba(0, 0, 0, 0) 100%);
+    height: 2px;
 }
+.content-1o0f9g /* Date */ {
+    border-radius: 0px;
+    background-color: black;
+    color: red;
+    border: 1px solid red;
+}
+/* Chat Unread Dividers - Yeah same for this */
+.isUnread-3Ef-o9 /* Line */ {
+    border: 0px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), red 10%);
+}
+.unreadPill-2HyYtt /* New Label */ {
+    background-color: red;
+    position: absolute;
+    top: -5.5px;
+}
+.unreadPillCapStroke-7rkHbg /* New Label Arrow */ {
+    color: red;
+    fill: red;
+    position: relative;
+    top: 10px;
+}
+/* End of Stolen */
 
 .barButtonBase-2uLO1z {
 	left: 840px;
